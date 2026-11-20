@@ -57,9 +57,6 @@ export function Wordmark({
   );
 }
 
-/* =========================
-   NAVIGATION HELPERS
-========================= */
 
 function linkHref(pathname: string, href: string, id: string) {
   return pathname === "/" ? `#${id}` : href;
